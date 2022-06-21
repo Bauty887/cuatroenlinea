@@ -22,13 +22,13 @@ Una vez instalado todos los programas mencionados anteriormente, puede descargar
 
 Ese proceso lo puede hacer mediante el mismo github, o puede hacerlo mediante la clonación del repositorio. Esto se hace de la siguiente manera:
 
-1.Crear la carpeta donde desees guardar el proyecto.
+1. Crear la carpeta donde desees guardar el proyecto.
 
-2.En la consola, utilice el comando `cd` para dirigirse a la carpeta anteriormente creada.
+2. En la consola, utilice el comando `cd` para dirigirse a la carpeta anteriormente creada.
 
-3.Utilice el comando `git clone https://github.com/Bauty887/cuatroenlinea` para clonar la carpeta, donde están todos los archivos de nuestro juego.
+3. Utilice el comando `git clone https://github.com/Bauty887/cuatroenlinea` para clonar la carpeta, donde están todos los archivos de nuestro juego.
 
-4.Use `cd cuatroenlinea` una vez más para ingresar a la carpeta clonada.
+4. Use `cd cuatroenlinea` una vez más para ingresar a la carpeta clonada.
 
 # Ejecutar Docker Desktop
 Antes de iniciarlizar la configuración de DDEV, es importante tener en cuenta que necesitamos que funcione correctamente Docker, esto se hace siguiendo la guia anterior.
