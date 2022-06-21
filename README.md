@@ -34,7 +34,7 @@ Ese proceso lo puede hacer mediante el mismo github, o puede hacerlo mediante la
 Antes de iniciarlizar la configuración de DDEV, es importante tener en cuenta que necesitamos que funcione correctamente Docker, esto se hace siguiendo la guia anterior.
 
 # Configurar DDEV
-Este programa al utilizar DDEV debe ser configurado manualmente por cada proyecto. Por ende, dentro de la misma carpeta vamos a colocar:
+Este programa al utilizar DDEV debe ser configurado manualmente por cada proyecto. También cabe aclarar que tiene que estar en la carpeta que ha clonado/descargado obligatoriamente. Ahora, dentro de la misma carpeta vamos a ingresar:
 
 1. Primero corrobora que tengas correctamente instalado DDEV, mediante el comando `ddev` que se ingresa en la consola.
 2. Una vez corroborado, ingresar `ddev config` esto nos pedirá que ingresemos: 
