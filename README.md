@@ -48,3 +48,23 @@ Este programa al utilizar DDEV debe ser configurado manualmente por cada proyect
 3. Debemos instalar composer para ello ingresamos `ddev composer install` (Esto puede demorar un tiempo)
 4. Crear el archivo de ambiente para el proyecto .env. Para ello utilizamos `cp .env.example .env`
 5. Crear una clave de autenticación para el proyecto, basta con escribir `php artisan key:generate`
+
+# Ejecutar el juego
+
+Si todo salió bien y no obtuvimos ningún mensaje de error podemos ahora ejecutar el comando `ddev start`.
+
+Debemos aceptar los permisos y luego nos deberia devolver un mensaje similar al siguiente:
+![image](https://user-images.githubusercontent.com/102709360/174707017-1fbee3d7-bd7b-4084-af57-83ccef5bb1c3.png)
+
+Si todo salió como lo esperado te debería haber dejado un link el cual al copiarlo y agregarle al final `/jugar/1` a la URL podrás jugar al 4 en línea. 
+
+En mi caso me quedo el link de la siguiente forma `https://4enlinea.ddev.site/jugar/1`, que al visualizarlo en el navegador quedaría de la siguiente forma:
+
+![image](https://user-images.githubusercontent.com/102709360/174708769-4c997235-94ac-4d3c-bd82-fcad2e6c7cd7.png)
+
+# Cerrar la aplicación
+No se recomienda cerrar la terminal deteniendo los programas a la fuerza. Porque algunos procesos podrían persistir en segundo plano. La mejor forma de darle fin al programa utilizaremos el comando `ddev stop` con esto se nos indicará que se eliminan los contenedores.
+
+Una vez el proyecto sea detenido podremos utilizar `exit` para poder cerrar Docker y el navegador.
+
+Ante cualquier inconveniente se recomienda no hablarle al propietario de este documento ya que únicamente es una guía, se recomienda acudir a foros en internet. Gracias
