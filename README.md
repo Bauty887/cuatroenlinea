@@ -37,13 +37,12 @@ Antes de iniciarlizar la configuración de DDEV, es importante tener en cuenta q
 Este programa al utilizar DDEV debe ser configurado manualmente por cada proyecto. Por ende, dentro de la misma carpeta vamos a colocar:
 
 1. Primero corrobora que tengas correctamente instalado DDEV, mediante el comando `ddev` que se ingresa en la consola.
-2. Una vez corroborado, ingresar `ddev config` esto nos pedirá que ingresemos:
-3. 
--Proyect Name: puede ser cualquiera, si se deja en blanco será cuatroenlinea.
+2. Una vez corroborado, ingresar `ddev config` esto nos pedirá que ingresemos: 
+    -Proyect Name: puede ser cualquiera, si se deja en blanco será cuatroenlinea.
 
--Docroot Location: este campo nos determinara la ubicación, dejarlo en blanco (sugerencia) para que los archivos del programa estén en el mismo directorio.
+    -Docroot Location: este campo nos determinara la ubicación, dejarlo en blanco (sugerencia) para que los archivos del programa estén en el mismo directorio.
 
--Proyect Type: en nuestro caso debe ser `laravel`.
+    -Proyect Type: en nuestro caso debe ser `laravel`.
 
 3. Debemos instalar composer para ello ingresamos `ddev composer install` (Esto puede demorar un tiempo)
 4. Crear el archivo de ambiente para el proyecto .env. Para ello utilizamos `cp .env.example .env`
