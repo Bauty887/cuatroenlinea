@@ -29,9 +29,9 @@ $blancas = 0;
 // Cuento fichas rojas y azules en el tablero
 for ($x=0; $x<$t->OAltura(); $x++) {
     for ($y=0; $y<$t->OAncho(); $y++) {
-    if(($t->tablero[$x][$y]->ConseguirColor()) == 'azul'){
+    if(($t->ATablero[$x][$y]->ConseguirColor()) == 'azul'){
     $azules++;
-    }else if(($t->tablero[$x][$y]->ConseguirColor()) == 'rojo'){
+    }else if(($t->ATablero[$x][$y]->ConseguirColor()) == 'rojo'){
             $rojas++;
     }else $blancas++;
     }
