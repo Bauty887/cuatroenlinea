@@ -8,7 +8,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Tests\TestCase;
 
-class WinningTest extends TestCase {
+class GanadorCheckTest extends TestCase {
 
 	// determina si ganaste
 	public function TWin() {
@@ -21,7 +21,7 @@ class WinningTest extends TestCase {
 	$FichaR = new Ficha('rojo');
 	$FichaA = new Ficha('azul');
 		
-	$d = new DeterminadorResultado($t);
+	$d = new CheckGanador($t);
 	
 	// Ganador si se hace 4 en linea Verticales
 	for ($i=0; $i<8; $i++) {

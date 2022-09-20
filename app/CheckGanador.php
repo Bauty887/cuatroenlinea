@@ -15,7 +15,7 @@ interface InterfazResultado {
 }
 
 
-class DeterminadorResultado implements InterfazResultado {
+class CheckGanador implements InterfazResultado {
 
 	protected Tablero $tablero;
 
