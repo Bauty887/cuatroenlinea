@@ -5,6 +5,7 @@ on:
     branches:
     - master
     - TA
+    - CyTGanador
   pull_request:
 
 jobs:
